@@ -1,17 +1,17 @@
-# Colu Logger
+# Osseus Logger
 
-Colu's [winston](https://github.com/winstonjs/winston) based logger
+Osseus [winston](https://github.com/winstonjs/winston) based logger
 
 ### Install
 ```bash
-$ npm install colu-logger
+$ npm install osseus-logger
 ```
 
 ### Usage
 ```bash
-const ColuLogger = require('colu-logger')
+const OsseusLogger = require('osseus-logger')
 
-const logger = ColuLogger.init(config)
+const logger = OsseusLogger.init(config)
 // option #1"
 logger.log('info', "127.0.0.1 - there's no place like home")
 // option #2

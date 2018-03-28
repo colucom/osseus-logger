@@ -1,7 +1,7 @@
 {
-  "name": "colu-logger",
+  "name": "osseus-logger",
   "version": "1.0.0",
-  "description": "Colu logger",
+  "description": "Osseus logger",
   "scripts": {
     "build": "npm install",
     "test": "standard"
@@ -9,7 +9,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/colucom/colu-logger.git"
+    "url": "https://github.com/colucom/osseus-logger.git"
   },
   "author": "LiorRabin",
   "license": "ISC",
