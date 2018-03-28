@@ -1,0 +1,22 @@
+{
+  "name": "colu-logger",
+  "version": "1.0.0",
+  "description": "Colu logger",
+  "scripts": {
+    "build": "npm install",
+    "test": "standard"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colucom/colu-logger.git"
+  },
+  "author": "LiorRabin",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
