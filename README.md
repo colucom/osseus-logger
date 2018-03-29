@@ -11,7 +11,7 @@ $ npm install osseus-logger
 ```bash
 const OsseusLogger = require('osseus-logger')
 
-const logger = OsseusLogger.init(config)
+const logger = await OsseusLogger.init(config)
 // option #1"
 logger.log('info', "127.0.0.1 - there's no place like home")
 // option #2
