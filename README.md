@@ -23,7 +23,7 @@ console.info("127.0.0.1 - there's no place like home")
 #### Config
 config should have a "get" function which receives the key name and returns the value
 
-* `LOG_LEVEL` - optional, see [Winston Logging Levels](https://github.com/winstonjs/winston#logging-levels)
+* `OSSEUS_LOGGER_LOG_LEVEL` - optional, see [Winston Logging Levels](https://github.com/winstonjs/winston#logging-levels)
 * `ENV` - optional
 
 #### Note
