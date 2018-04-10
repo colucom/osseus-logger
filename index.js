@@ -8,7 +8,7 @@ const init = function (osseus) {
       return config.osseus_logger[key.toLowerCase()] || config[key.toLowerCase()]
     }
     const logger = require(path.join(__dirname, '/lib/winston'))(config)
-    this.logger = logger
+    Object.assign(this, logger)
     resolve(this)
   })
 }
