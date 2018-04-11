@@ -28,3 +28,6 @@ config should have a "get" function which receives the key name and returns the 
 
 #### Note
 console.log is equivalent to logger.debug
+
+## License
+Code released under the [MIT License](https://github.com/colucom/osseus-logger/blob/master/LICENSE).
