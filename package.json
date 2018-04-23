@@ -14,6 +14,7 @@
   "author": "LiorRabin",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.22.1",
     "winston": "^2.4.1"
   },
   "devDependencies": {
