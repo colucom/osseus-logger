@@ -26,7 +26,6 @@ First, create `index.js`:
 
 ```javascript
 const Osseus = require('osseus')
-const OsseusLogger = require('osseus-logger')
 
 const main = async () => {
 	try {
