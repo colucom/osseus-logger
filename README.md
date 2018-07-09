@@ -13,7 +13,7 @@ $ npm install osseus-logger
 
 #### Configuration
 * `OSSEUS_LOGGER_LOG_LEVEL`
-	* Optional. See [Winston Logging Levels](https://github.com/winstonjs/winston#logging-levels)
+	* Mandatory. See [Winston Logging Levels](https://github.com/winstonjs/winston#logging-levels)
 	* Default log levels:
 		* DEV environment - `silly`
 		* QA environment - `debug`
