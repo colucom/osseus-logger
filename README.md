@@ -2,7 +2,9 @@
 
 # Osseus Logger
 
-[winston](https://github.com/winstonjs/winston) based osseus logger module
+<!--[winston](https://github.com/winstonjs/winston) based osseus logger module-->
+
+[console-log-level](https://github.com/watson/console-log-level) based osseus logger module
 
 ## Install
 ```bash
@@ -12,10 +14,17 @@ $ npm install osseus-logger
 ## Usage
 
 #### Configuration
-* `OSSEUS_LOGGER_LOG_LEVEL`
+<!--* `OSSEUS_LOGGER_LOG_LEVEL`
 	* Mandatory. See [Winston Logging Levels](https://github.com/winstonjs/winston#logging-levels)
 	* Default log levels:
 		* DEV environment - `silly`
+		* QA environment - `debug`
+		* PROD envrionment - `info`-->
+
+* `OSSEUS_LOGGER_LOG_LEVEL`
+	* Mandatory. Options are: `['trace', 'debug', 'info', 'warn', 'error', 'fatal']`
+	* Default log levels:
+		* DEV environment - `trace`
 		* QA environment - `debug`
 		* PROD envrionment - `info`
 
