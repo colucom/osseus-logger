@@ -19,7 +19,7 @@ $ npm install osseus-logger
 		* QA environment - `debug`
 		* PROD envrionment - `info`
 
-*Note: console.log is equivalent to logger.debug*
+***Note: `console` is not being overriden, so any use of it is not recommended except when developing***
 
 #### Example
 First, create `index.js`:
@@ -34,7 +34,7 @@ const main = async () => {
 		// option #1
 		osseus.logger.info(`hello logger`)
 		// option #2
-		console.info(`hello logger`)
+		osseus.logger.info(`hello`, `logger`)
   	} catch (err) {
 		console.error(err)
   	}
