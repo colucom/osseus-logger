@@ -14,6 +14,7 @@
   "author": "LiorRabin",
   "license": "MIT",
   "dependencies": {
+    "console-log-level": "^1.4.0",
     "winston": "^3.0.0"
   },
   "devDependencies": {
