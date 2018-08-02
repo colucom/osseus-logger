@@ -2,9 +2,7 @@
 
 # Osseus Logger
 
-<!--[winston](https://github.com/winstonjs/winston) based osseus logger module-->
-
-[console-log-level](https://github.com/watson/console-log-level) based osseus logger module
+[winston](https://github.com/winstonjs/winston) based osseus logger module
 
 ## Install
 ```bash
@@ -14,21 +12,20 @@ $ npm install osseus-logger
 ## Usage
 
 #### Configuration
-<!--* `OSSEUS_LOGGER_LOG_LEVEL`
+* `OSSEUS_LOGGER_LOG_LEVEL`
 	* Mandatory. See [Winston Logging Levels](https://github.com/winstonjs/winston#logging-levels)
 	* Default log levels:
 		* DEV environment - `silly`
 		* QA environment - `debug`
-		* PROD envrionment - `info`-->
-
-* `OSSEUS_LOGGER_LOG_LEVEL`
-	* Mandatory. Options are: `['trace', 'debug', 'info', 'warn', 'error', 'fatal']`
-	* Default log levels:
-		* DEV environment - `trace`
-		* QA environment - `debug`
 		* PROD envrionment - `info`
 
-***Note: `console` is not being overriden, so any use of it is not recommended except when developing***
+***Note: `console` override***
+
+* `console.debug` ==> `logger.debug`
+* `console.log` ==> `logger.debug`
+* `console.info` ==> **no override!** can be used to bypass logger functionality
+* `console.warn` ==> `logger.warn`
+* `console.error` ==> `logger.error`
 
 #### Example
 First, create `index.js`:
@@ -41,9 +38,9 @@ const main = async () => {
 		// init osseus
 		const osseus = await Osseus.init()
 		// option #1
-		osseus.logger.info(`hello logger`)
+		osseus.logger.debug(`hello logger`)
 		// option #2
-		osseus.logger.info(`hello`, `logger`)
+		console.log(`hello logger`)
   	} catch (err) {
 		console.error(err)
   	}
@@ -62,8 +59,8 @@ $ node index.js --OSSEUS_LOGGER_LOG_LEVEL 'debug'
 Will result in:
 
 ```sh
-2018-06-21T12:38:15.650Z - info: (Liors-MacBook-Pro.local) (63287) - hello logger
-2018-06-21T12:38:15.650Z - info: (Liors-MacBook-Pro.local) (63287) - hello logger
+2018-06-21T12:38:15.650Z - debug: (Liors-MacBook-Pro.local) (63287) - hello logger
+2018-06-21T12:38:15.650Z - debug: (Liors-MacBook-Pro.local) (63287) - hello logger
 ```
 
 ## License
