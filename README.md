@@ -18,6 +18,8 @@ $ npm install osseus-logger
 		* DEV environment - `silly`
 		* QA environment - `debug`
 		* PROD envrionment - `info`
+* `OSSEUS_LOGGER_NO_CONSOLE_OVERRIDE`
+	*  Optional. Set to true if you wish to disable `console` override
 
 ***Note: `console` override***
 
