@@ -65,5 +65,8 @@ Will result in:
 2018-06-21T12:38:15.650Z - debug: (Liors-MacBook-Pro.local) (63287) - hello logger
 ```
 
+## Contributing
+Please see [contributing guidelines](https://github.com/colucom/osseus-logger/blob/master/.github/CONTRIBUTING.md).
+
 ## License
 Code released under the [MIT License](https://github.com/colucom/osseus-logger/blob/master/LICENSE).
