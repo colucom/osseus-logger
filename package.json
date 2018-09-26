@@ -14,8 +14,8 @@
   "author": "LiorRabin",
   "license": "MIT",
   "dependencies": {
+    "aws-sdk": "^2.275.1",
     "console-log-level": "^1.4.0",
-    "node-ec2-metadata": "0.0.5",
     "winston": "^3.0.0"
   },
   "devDependencies": {
