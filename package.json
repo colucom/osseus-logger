@@ -1,6 +1,6 @@
 {
   "name": "osseus-logger",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Osseus logger",
   "scripts": {
     "build": "npm install",
@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "console-log-level": "^1.4.0",
+    "node-ec2-metadata": "0.0.5",
     "winston": "^3.0.0"
   },
   "devDependencies": {
