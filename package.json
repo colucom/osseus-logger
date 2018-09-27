@@ -1,5 +1,5 @@
 {
-  "name": "osseus-logger",
+  "name": "@colucom/osseus-logger",
   "version": "0.4.3",
   "description": "Osseus logger",
   "scripts": {
