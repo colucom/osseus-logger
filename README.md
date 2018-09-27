@@ -6,7 +6,7 @@
 
 ## Install
 ```bash
-$ npm install osseus-logger
+$ npm install @colucom/osseus-logger
 ```
 
 ## Usage
