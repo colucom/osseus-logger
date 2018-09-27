@@ -1,6 +1,6 @@
 {
   "name": "osseus-logger",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Osseus logger",
   "scripts": {
     "build": "npm install",
