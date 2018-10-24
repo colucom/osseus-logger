@@ -1,6 +1,6 @@
 {
   "name": "@colucom/osseus-logger",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Osseus logger",
   "scripts": {
     "build": "npm install",
