@@ -16,7 +16,7 @@
   "dependencies": {
     "aws-sdk": "^2.275.1",
     "console-log-level": "^1.4.0",
-    "winston": "^3.0.0"
+    "winston": "~3.1.0"
   },
   "devDependencies": {
     "standard": "^11.0.1"
